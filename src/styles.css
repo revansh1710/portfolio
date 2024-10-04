@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+
+/* Class for Stack Citadel project background */
+
+
+.stack-citadel {
+    background-image: url('./assets/stack_citadel.jpg');
+    /* Adjust this path based on your directory structure */
+    background-size: cover;
+    /* Ensures the image covers the entire div */
+    background-position: center;
+    /* Centers the image */
+    height: 300px;
+    /* Adjust height as needed */
+    width: 100%;
+    /* Full width */
+    border-radius: 0.5rem;
+    /* Optional: adds rounded corners */
+}
+
+.task-manager {
+    background-image: url('./assets/Task_manager.png');
+    /* Adjust this path based on your directory structure */
+    background-size: cover;
+    /* Ensures the image covers the entire div */
+    background-position: center;
+    /* Centers the image */
+    height: 300px;
+    /* Adjust height as needed */
+    width: 100%;
+    /* Full width */
+    border-radius: 0.5rem;
+    /* Optional: adds rounded corners */
+}
